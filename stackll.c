@@ -108,7 +108,7 @@ void main()
 {
 	int ch,entry;
 	
-	printf("Enter Stack Size :");
+	printf("Enter Stack Size:");
 	scanf("%d",&size);
 	
 	while(1)
@@ -119,7 +119,7 @@ void main()
 		{
 			case 1:
 			{
-				printf("Enter data :");
+				printf("Enter data:");
 				scanf("%d",&entry);
 				push(entry);
 				break;
@@ -142,7 +142,7 @@ void main()
 				if(isempty())
 					printf("\nStack is Empty");
 				else
-					printf("\nStack is not Empty ");
+					printf("\nStack is not Empty");
 				break;
 			}
 			
@@ -151,7 +151,7 @@ void main()
 				if(isfull())
 					printf("\nStack is Full");
 				else
-					printf("\nStack is not Full ");
+					printf("\nStack is not Full");
 				break;
 			}
 			
@@ -163,7 +163,7 @@ void main()
 			
 			case 7:
 			{
-				printf("Exiting...");
+				printf("Exiting....");
 				exit(0);
 			}
 			
